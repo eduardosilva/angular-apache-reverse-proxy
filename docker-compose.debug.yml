@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  ui:
+    image: ui
+    container_name: ui-dev
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      target: dev
+    environment:
+      NODE_ENV: development
+    ports:
+      - 4200:4200
