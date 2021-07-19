@@ -1,6 +1,6 @@
 {
     "/api": {
-        "target": "https://jsonplaceholder.typicode.com",
+        "target": "https://random-data-api.com/api",
         "secure": false,
         "changeOrigin": true,
         "logLevel": "debug",
